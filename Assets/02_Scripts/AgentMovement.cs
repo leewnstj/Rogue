@@ -5,6 +5,7 @@ using UnityEngine;
 public class AgentMovement : MonoBehaviour
 {
     [SerializeField] float PlayerSpeed;
+    [SerializeField] float PlayerJumpPower;
     [SerializeField] float GroundHitDistance;
 
     private Rigidbody2D rigid;
@@ -31,6 +32,15 @@ public class AgentMovement : MonoBehaviour
 
     public void Jump()
     {
-        RaycastHit2D groundHit = Physics2D.Raycast(transform.position, Vector2.down, GroundHitDistance)
+        RaycastHit2D groundHit = Physics2D.Raycast(transform.position, Vector2.down, GroundHitDistance);
+        if(Input.GetKeyDown(KeyCode.Space) && groundHit)
+        {
+            rigid.velocity = new Vector2(rigid.velocity.x, PlayerJumpPower);
+        }
+    }
+
+    public void Dash()
+    {
+
     }
 }

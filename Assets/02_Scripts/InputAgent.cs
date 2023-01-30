@@ -11,6 +11,7 @@ public class InputAgent : MonoBehaviour
     private void Update()
     {
         PlayerMove();
+        PlayerInputting();
     }
 
     private void PlayerMove()
@@ -19,7 +20,8 @@ public class InputAgent : MonoBehaviour
         PlayerMovement?.Invoke(new Vector2(x, 0));
     }
 
-    private void PlayerIn()
+    private void PlayerInputting()
     {
+        PlayerInput.Invoke();
     }
 }
