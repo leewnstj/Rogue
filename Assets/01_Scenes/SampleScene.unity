@@ -526,7 +526,7 @@ GameObject:
   - component: {fileID: 1456220330}
   - component: {fileID: 1456220327}
   - component: {fileID: 1456220331}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -755,8 +755,10 @@ GameObject:
   - component: {fileID: 1457469166}
   - component: {fileID: 1457469169}
   - component: {fileID: 1457469168}
-  m_Layer: 0
-  m_Name: Square
+  - component: {fileID: 1457469170}
+  - component: {fileID: 1457469171}
+  m_Layer: 12
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -874,3 +876,47 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1457469170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457469165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c817a453f6d79fb46a7e83cc772eb3b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FollowDistance: 8
+  EnemySpeed: 3
+  layer:
+    serializedVersion: 2
+    m_Bits: 2048
+--- !u!114 &1457469171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457469165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 678ab3eac6a6d0945ab5e991ca5ba22f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyAttack:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1457469170}
+        m_TargetAssemblyTypeName: EnemyAttack, Assembly-CSharp
+        m_MethodName: CheckPlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

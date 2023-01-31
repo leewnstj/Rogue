@@ -6,7 +6,11 @@ public class EnemyAttack : MonoBehaviour
 {
     [SerializeField] float FollowDistance;
     [SerializeField] float EnemySpeed;
+    [SerializeField] float attackDis;
     [SerializeField] LayerMask layer;
+
+    public bool canAttack = false;
+    public bool stopAnim  = false;
 
     public void CheckPlayer()
     {
@@ -24,5 +28,25 @@ public class EnemyAttack : MonoBehaviour
                 transform.localScale = new Vector2(-1, 1);
             }
         }
+    }
+
+    public void Attack()
+    {
+        RaycastHit2D AttackHit = Physics2D.Raycast(new Vector2(transform.position.x + (attackDis / 2), transform.position.y),
+            Vector2.left, attackDis, layer);
+        if (AttackHit)
+        {
+            canAttack = true;
+        }
+        if (canAttack)
+        {
+            //attack anim start
+        }
+    }
+
+    public void StopAttackAnim()
+    {
+        canAttack = false;
+        stopAnim = true;
     }
 }
