@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerSkill : MonoBehaviour
+public class PlayerNormalSkill : MonoBehaviour
 {
     [SerializeField] float PlayerJumpPower;
     [SerializeField] float DashPower;
