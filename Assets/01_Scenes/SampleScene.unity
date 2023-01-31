@@ -624,8 +624,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerSpeed: 5
   PlayerJumpPower: 8
-  DashPower: 10
-  DashCoolTime: 0
+  DashPower: 12
+  DashCoolTime: 0.2
   GroundHitDistance: 0.6
   Ground:
     serializedVersion: 2
@@ -734,13 +734,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  PlayerInput:
-    m_PersistentCalls:
-      m_Calls:
       - m_Target: {fileID: 1456220327}
         m_TargetAssemblyTypeName: AgentMovement, Assembly-CSharp
         m_MethodName: Dash
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -749,6 +746,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  PlayerInput:
+    m_PersistentCalls:
+      m_Calls:
       - m_Target: {fileID: 1456220327}
         m_TargetAssemblyTypeName: AgentMovement, Assembly-CSharp
         m_MethodName: Jump

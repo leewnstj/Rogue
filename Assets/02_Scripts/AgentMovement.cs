@@ -16,6 +16,10 @@ public class AgentMovement : MonoBehaviour
     [Header("·¹ÀÌ¾î")]
     [SerializeField] LayerMask Ground;
 
+    private bool isDash;
+    private float CurrentDashTime;
+    private float DashDirection;
+
     private Rigidbody2D rigid;
 
     private void Start()
@@ -47,11 +51,23 @@ public class AgentMovement : MonoBehaviour
         }
     }
 
-    public void Dash()
+    public void Dash(Vector2 X)
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            rigid.velocity = new Vector2(DashPower, 0);
+            isDash = true;
+            CurrentDashTime = DashCoolTime;
+            rigid.velocity = Vector2.zero;
+            DashDirection = (int)X.x;
+        }
+        if (isDash)
+        {
+            rigid.velocity = transform.right * DashPower * DashDirection;
+            CurrentDashTime -= Time.deltaTime;
+            if(CurrentDashTime <= 0)
+            {
+                isDash = false;
+            }
         }
     }
 }
