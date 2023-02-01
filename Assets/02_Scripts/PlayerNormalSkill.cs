@@ -12,6 +12,8 @@ public class PlayerNormalSkill : MonoBehaviour
 
     [SerializeField] LayerMask Ground;
 
+    [SerializeField] GameObject ps;
+
     private bool isDash;
     private float CurrentDashTime;
     private float DashDirection;
