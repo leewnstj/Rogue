@@ -17,10 +17,12 @@ public class PlayerNormalSkill : MonoBehaviour
     private float DashDirection;
 
     private Rigidbody2D rigid;
+    private Animator anim;
 
     private void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     public void Jump()
@@ -29,6 +31,7 @@ public class PlayerNormalSkill : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && groundHit)
         {
             rigid.velocity = new Vector2(rigid.velocity.x, PlayerJumpPower);
+            anim.SetTrigger("PlayerJump");
         }
     }
 
