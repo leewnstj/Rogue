@@ -31,7 +31,6 @@ public class PlayerNormalSkill : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && groundHit)
         {
             rigid.velocity = new Vector2(rigid.velocity.x, PlayerJumpPower);
-            anim.SetTrigger("PlayerJump");
         }
     }
 
@@ -53,5 +52,6 @@ public class PlayerNormalSkill : MonoBehaviour
                 isDash = false;
             }
         }
+        anim.SetBool("PlayerDash", isDash);
     }
 }
