@@ -60,6 +60,7 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 rigid.velocity = new Vector2(rigid.velocity.x, jumpPower);
+                rigid.gravityScale = 5f;
             }
         }
     }
@@ -82,17 +83,17 @@ public class PlayerMovement : MonoBehaviour
     {
         isWall = Physics2D.Raycast(new Vector2(transform.position.x + (wallchkDistance / 2), transform.position.y)
             , Vector2.left, wallchkDistance, w_Layer);
-        if (isWall)
+        if (isWall && isGround == false)
         {
-            rigid.velocity = new Vector2(rigid.velocity.x, wallSlideSpeed);
+            rigid.gravityScale = wallSlideSpeed;
+        }
+        if (isWall == false)
+        {
+            rigid.gravityScale = 5;
         }
     }
 
     private void Dahs()
     {
-        if ()
-        {
-            
-        }
     }
 }
