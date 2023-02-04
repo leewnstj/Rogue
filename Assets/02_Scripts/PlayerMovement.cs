@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    Rigidbody2D rigid;
-    Animator anim;
+    private Rigidbody2D rigid;
+    private Animator anim;
 
     [SerializeField] Transform groundChkFront; 
     [SerializeField] Transform groundChkBack;
@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isGround;
     public bool isWall;
     public bool isDash;
+    public bool isSlideWall;
 
     private float inputX;
     private float currentDashTime;
@@ -91,6 +92,15 @@ public class PlayerMovement : MonoBehaviour
         {
             rigid.velocity = new Vector2(rigid.velocity.x, wallSlideSpeed);
         }
+        if(isWall && isGround == false)
+        {
+            isSlideWall = true;
+        }
+        else
+        {
+            isSlideWall = false;
+        }
+        anim.SetBool("SlideWall", isSlideWall);
     }
 
     private void Dash()
@@ -100,6 +110,7 @@ public class PlayerMovement : MonoBehaviour
             isDash = true;
             currentDashTime = DashCoolTime;
             rigid.velocity = Vector2.zero;
+            rigid.gravityScale = 0;
             dashDis = (int)inputX;
         }
         if (isDash)
@@ -109,6 +120,16 @@ public class PlayerMovement : MonoBehaviour
             if(currentDashTime <= 0)
             {
                 isDash = false;
+                rigid.gravityScale = 5;
+            }
+
+            if (isGround)
+            {
+                anim.SetBool("PlayerGroundDash", isDash);
+            }
+            else
+            {
+                anim.SetBool("PlayerDash", isDash);
             }
         }
     }

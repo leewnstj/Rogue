@@ -1,157 +1,178 @@
 fileFormatVersion: 2
-guid: 98c4cfdf19c15084b90b8a12289a6ce9
+guid: 20236ecdedc71a24b928f03aa5b89f8a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5539902343138154710
-    second: Katana-Asset_0
+      213: 3535754731725775905
+    second: Katana-Asset 1_0
   - first:
-      213: 3382743094440321700
-    second: Katana-Asset_1
+      213: 8157055134492613331
+    second: Katana-Asset 1_1
   - first:
-      213: 2951368601724535687
-    second: Katana-Asset_2
+      213: 5667969614989834621
+    second: Katana-Asset 1_2
   - first:
-      213: -3536200185946971537
-    second: Katana-Asset_3
+      213: 3686664789426783272
+    second: Katana-Asset 1_3
   - first:
-      213: -3903845269168031910
-    second: Katana-Asset_4
+      213: 1883828770804068304
+    second: Katana-Asset 1_4
   - first:
-      213: 1074628906051767982
-    second: Katana-Asset_5
+      213: -1136206188977188022
+    second: Katana-Asset 1_5
   - first:
-      213: -5399007800112396781
-    second: Katana-Asset_6
+      213: 226958518716543760
+    second: Katana-Asset 1_6
   - first:
-      213: 7575099897331554354
-    second: Katana-Asset_7
+      213: 4527949802173157564
+    second: Katana-Asset 1_7
   - first:
-      213: 6944475288686768397
-    second: Katana-Asset_8
+      213: -6321261579537448372
+    second: Katana-Asset 1_8
   - first:
-      213: -1771439781567767644
-    second: Katana-Asset_9
+      213: -5095404946974588073
+    second: Katana-Asset 1_9
   - first:
-      213: -7982347866319397057
-    second: Katana-Asset_10
+      213: -5675121775816798166
+    second: Katana-Asset 1_10
   - first:
-      213: -1544606800634280452
-    second: Katana-Asset_11
+      213: 7702850550926849679
+    second: Katana-Asset 1_11
   - first:
-      213: -2415271322132375590
-    second: Katana-Asset_12
+      213: -7794295418786342981
+    second: Katana-Asset 1_12
   - first:
-      213: 6348277636452408907
-    second: Katana-Asset_13
+      213: 5954711403116953127
+    second: Katana-Asset 1_13
   - first:
-      213: -9209442652654924971
-    second: Katana-Asset_14
+      213: -1082529352373206375
+    second: Katana-Asset 1_14
   - first:
-      213: -9067055237728251846
-    second: Katana-Asset_15
+      213: -7368975768918203538
+    second: Katana-Asset 1_15
   - first:
-      213: 1633319800321095150
-    second: Katana-Asset_16
+      213: 6505228516562371165
+    second: Katana-Asset 1_16
   - first:
-      213: -1138723965567340397
-    second: Katana-Asset_17
+      213: -2367992597566468929
+    second: Katana-Asset 1_17
   - first:
-      213: 1981509828060597041
-    second: Katana-Asset_18
+      213: -4752757823566537712
+    second: Katana-Asset 1_18
   - first:
-      213: 1257805465336973827
-    second: Katana-Asset_19
+      213: -3875958652880740056
+    second: Katana-Asset 1_19
   - first:
-      213: -2881570050311764262
-    second: Katana-Asset_20
+      213: 1555592718129107159
+    second: Katana-Asset 1_20
   - first:
-      213: 4961387787694158378
-    second: Katana-Asset_21
+      213: 1281280731577901299
+    second: Katana-Asset 1_21
   - first:
-      213: 5270268703637038189
-    second: Katana-Asset_22
+      213: 2146987015472184851
+    second: Katana-Asset 1_22
   - first:
-      213: 8497683744451658051
-    second: Katana-Asset_23
+      213: -6098172138769120978
+    second: Katana-Asset 1_23
   - first:
-      213: 4194287244905326748
-    second: Katana-Asset_24
+      213: 1958542133454654301
+    second: Katana-Asset 1_24
   - first:
-      213: 8844980431926692398
-    second: Katana-Asset_25
+      213: 1494339863341430847
+    second: Katana-Asset 1_25
   - first:
-      213: 7742143250767100296
-    second: Katana-Asset_26
+      213: -8517633086430344881
+    second: Katana-Asset 1_26
   - first:
-      213: -3619800834600480681
-    second: Katana-Asset_27
+      213: 5091950788899863555
+    second: Katana-Asset 1_27
   - first:
-      213: 8293961704596958443
-    second: Katana-Asset_28
+      213: -1820766391709899280
+    second: Katana-Asset 1_28
   - first:
-      213: 3586072588366150977
-    second: Katana-Asset_29
+      213: 2208393511544729319
+    second: Katana-Asset 1_29
   - first:
-      213: -5179570715928252324
-    second: Katana-Asset_30
+      213: 9077907064003805079
+    second: Katana-Asset 1_30
   - first:
-      213: -6146070685626397347
-    second: Katana-Asset_31
+      213: -8055788051535693955
+    second: Katana-Asset 1_31
   - first:
-      213: -1411326863507929680
-    second: Katana-Asset_32
+      213: 3705435019147701702
+    second: Katana-Asset 1_32
   - first:
-      213: 909546607857075728
-    second: Katana-Asset_33
+      213: -1640900734842514826
+    second: Katana-Asset 1_33
   - first:
-      213: 1840040108263806249
-    second: Katana-Asset_34
+      213: -2892404306440487445
+    second: Katana-Asset 1_34
   - first:
-      213: -11315691710080947
-    second: Katana-Asset_35
+      213: -3544868653376856648
+    second: Katana-Asset 1_35
   - first:
-      213: -6396736941520818148
-    second: Katana-Asset_36
+      213: 6924896148207274706
+    second: Katana-Asset 1_36
   - first:
-      213: -480023191508345629
-    second: Katana-Asset_37
+      213: 7844799468154604167
+    second: Katana-Asset 1_37
   - first:
-      213: -5640002153678139607
-    second: Katana-Asset_38
+      213: 9194916993702665643
+    second: Katana-Asset 1_38
   - first:
-      213: -5840486089455658071
-    second: Katana-Asset_39
+      213: -2139162056179550883
+    second: Katana-Asset 1_39
   - first:
-      213: 4542512854864181260
-    second: Katana-Asset_40
+      213: -8385650995274336654
+    second: Katana-Asset 1_40
   - first:
-      213: 1376069953525542942
-    second: Katana-Asset_41
+      213: 8979108234373078039
+    second: Katana-Asset 1_41
   - first:
-      213: -1650494589602077628
-    second: Katana-Asset_42
+      213: 4834182404138465682
+    second: Katana-Asset 1_42
   - first:
-      213: 1780592442489747792
-    second: Katana-Asset_43
+      213: -2169964358679768853
+    second: Katana-Asset 1_43
   - first:
-      213: -1385821846004048833
-    second: Katana-Asset_44
+      213: -6191140060626859301
+    second: Katana-Asset 1_44
   - first:
-      213: 4611819881823353454
-    second: Katana-Asset_45
+      213: -6857532190799915231
+    second: Katana-Asset 1_45
   - first:
-      213: 8728296519275141917
-    second: Katana-Asset_46
+      213: -4440415688827480418
+    second: Katana-Asset 1_46
   - first:
-      213: -3128700038966585460
-    second: Katana-Asset_47
+      213: -233870518487684370
+    second: Katana-Asset 1_47
   - first:
-      213: 2819247739585270155
-    second: Katana-Asset_48
+      213: -2034580262082019857
+    second: Katana-Asset 1_48
   - first:
-      213: 2496803055506170048
-    second: Katana-Asset_49
+      213: 719478063830315573
+    second: Katana-Asset 1_49
+  - first:
+      213: -9219982446783318016
+    second: Katana-Asset 1_50
+  - first:
+      213: 1996498583438678612
+    second: Katana-Asset 1_51
+  - first:
+      213: -2893026735575615033
+    second: Katana-Asset 1_52
+  - first:
+      213: 554422179846786809
+    second: Katana-Asset 1_53
+  - first:
+      213: 1953248483130603218
+    second: Katana-Asset 1_54
+  - first:
+      213: 8658729434972943397
+    second: Katana-Asset 1_55
+  - first:
+      213: -8762794169740556273
+    second: Katana-Asset 1_56
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -253,11 +274,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Katana-Asset_0
+      name: Katana-Asset 1_0
       rect:
         serializedVersion: 2
         x: 11
-        y: 325
+        y: 375
         width: 33
         height: 35
       alignment: 0
@@ -267,18 +288,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2765eaab205e13b0800000000000000
-      internalID: -5539902343138154710
+      spriteID: 124eb6df136811130800000000000000
+      internalID: 3535754731725775905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_1
+      name: Katana-Asset 1_1
       rect:
         serializedVersion: 2
         x: 48
-        y: 325
+        y: 375
         width: 33
         height: 35
       alignment: 0
@@ -288,18 +309,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a2658efbeae1fe20800000000000000
-      internalID: 3382743094440321700
+      spriteID: 3da55b84d6ea33170800000000000000
+      internalID: 8157055134492613331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_2
+      name: Katana-Asset 1_2
       rect:
         serializedVersion: 2
         x: 87
-        y: 325
+        y: 375
         width: 34
         height: 35
       alignment: 0
@@ -309,18 +330,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78348033b1e55f820800000000000000
-      internalID: 2951368601724535687
+      spriteID: d793d2ba55ca8ae40800000000000000
+      internalID: 5667969614989834621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_3
+      name: Katana-Asset 1_3
       rect:
         serializedVersion: 2
         x: 126
-        y: 325
+        y: 375
         width: 34
         height: 35
       alignment: 0
@@ -330,18 +351,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f62e5fd9aa4eceec0800000000000000
-      internalID: -3536200185946971537
+      spriteID: 82449bbd71aa92330800000000000000
+      internalID: 3686664789426783272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_4
+      name: Katana-Asset 1_4
       rect:
         serializedVersion: 2
         x: 165
-        y: 325
+        y: 375
         width: 35
         height: 34
       alignment: 0
@@ -351,18 +372,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5776214961c2d9c0800000000000000
-      internalID: -3903845269168031910
+      spriteID: 0dfef6d3944b42a10800000000000000
+      internalID: 1883828770804068304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_5
+      name: Katana-Asset 1_5
       rect:
         serializedVersion: 2
         x: 205
-        y: 325
+        y: 375
         width: 35
         height: 34
       alignment: 0
@@ -372,18 +393,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eae0592eb49d9ee00800000000000000
-      internalID: 1074628906051767982
+      spriteID: a431a62bd726b30f0800000000000000
+      internalID: -1136206188977188022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_6
+      name: Katana-Asset 1_6
       rect:
         serializedVersion: 2
         x: 245
-        y: 325
+        y: 375
         width: 35
         height: 34
       alignment: 0
@@ -393,18 +414,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 316ccbec20fd215b0800000000000000
-      internalID: -5399007800112396781
+      spriteID: 01339def191562300800000000000000
+      internalID: 226958518716543760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_7
+      name: Katana-Asset 1_7
       rect:
         serializedVersion: 2
         x: 285
-        y: 325
+        y: 375
         width: 34
         height: 34
       alignment: 0
@@ -414,18 +435,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2389b86d839202960800000000000000
-      internalID: 7575099897331554354
+      spriteID: cb0d45fda5286de30800000000000000
+      internalID: 4527949802173157564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_8
+      name: Katana-Asset 1_8
       rect:
         serializedVersion: 2
         x: 324
-        y: 325
+        y: 375
         width: 34
         height: 33
       alignment: 0
@@ -435,18 +456,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0137ad4b7bbf5060800000000000000
-      internalID: 6944475288686768397
+      spriteID: c42885bb51e5648a0800000000000000
+      internalID: -6321261579537448372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_9
+      name: Katana-Asset 1_9
       rect:
         serializedVersion: 2
         x: 363
-        y: 325
+        y: 375
         width: 33
         height: 35
       alignment: 0
@@ -456,18 +477,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ab58a677e49a67e0800000000000000
-      internalID: -1771439781567767644
+      spriteID: 753cfc4823c7949b0800000000000000
+      internalID: -5095404946974588073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_10
+      name: Katana-Asset 1_10
       rect:
         serializedVersion: 2
         x: 11
-        y: 270
+        y: 320
         width: 39
         height: 30
       alignment: 0
@@ -477,18 +498,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3f5f6a68e0093190800000000000000
-      internalID: -7982347866319397057
+      spriteID: a201b5f10daed31b0800000000000000
+      internalID: -5675121775816798166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_11
+      name: Katana-Asset 1_11
       rect:
         serializedVersion: 2
         x: 55
-        y: 270
+        y: 320
         width: 38
         height: 31
       alignment: 0
@@ -498,18 +519,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf58a8a6c44709ae0800000000000000
-      internalID: -1544606800634280452
+      spriteID: f86baedb3c506ea60800000000000000
+      internalID: 7702850550926849679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_12
+      name: Katana-Asset 1_12
       rect:
         serializedVersion: 2
         x: 98
-        y: 270
+        y: 320
         width: 38
         height: 27
       alignment: 0
@@ -519,18 +540,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad79c18778b3b7ed0800000000000000
-      internalID: -2415271322132375590
+      spriteID: bb719c0dc9915d390800000000000000
+      internalID: -7794295418786342981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_13
+      name: Katana-Asset 1_13
       rect:
         serializedVersion: 2
         x: 141
-        y: 270
+        y: 320
         width: 38
         height: 30
       alignment: 0
@@ -540,18 +561,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4e5d4030ec991850800000000000000
-      internalID: 6348277636452408907
+      spriteID: 72ef0c2c87263a250800000000000000
+      internalID: 5954711403116953127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_14
+      name: Katana-Asset 1_14
       rect:
         serializedVersion: 2
         x: 184
-        y: 270
+        y: 320
         width: 38
         height: 29
       alignment: 0
@@ -561,18 +582,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55b0c2d73bc713080800000000000000
-      internalID: -9209442652654924971
+      spriteID: 9928cdc1a451af0f0800000000000000
+      internalID: -1082529352373206375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_15
+      name: Katana-Asset 1_15
       rect:
         serializedVersion: 2
         x: 227
-        y: 270
+        y: 320
         width: 39
         height: 32
       alignment: 0
@@ -582,18 +603,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a30dc54fc495b2280800000000000000
-      internalID: -9067055237728251846
+      spriteID: e636b27a4932cb990800000000000000
+      internalID: -7368975768918203538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_16
+      name: Katana-Asset 1_16
       rect:
         serializedVersion: 2
         x: 271
-        y: 270
+        y: 320
         width: 38
         height: 29
       alignment: 0
@@ -603,18 +624,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee530c664b7baa610800000000000000
-      internalID: 1633319800321095150
+      spriteID: d520170aed6374a50800000000000000
+      internalID: 6505228516562371165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_17
+      name: Katana-Asset 1_17
       rect:
         serializedVersion: 2
         x: 314
-        y: 270
+        y: 320
         width: 40
         height: 30
       alignment: 0
@@ -624,18 +645,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 390722726907230f0800000000000000
-      internalID: -1138723965567340397
+      spriteID: fbccb475743332fd0800000000000000
+      internalID: -2367992597566468929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_18
+      name: Katana-Asset 1_18
       rect:
         serializedVersion: 2
         x: 359
-        y: 270
+        y: 320
         width: 41
         height: 28
       alignment: 0
@@ -645,18 +666,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13b4f7ca0bcbf7b10800000000000000
-      internalID: 1981509828060597041
+      spriteID: 01c9bdec0ffca0eb0800000000000000
+      internalID: -4752757823566537712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_19
+      name: Katana-Asset 1_19
       rect:
         serializedVersion: 2
         x: 405
-        y: 270
+        y: 320
         width: 41
         height: 29
       alignment: 0
@@ -666,18 +687,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30a84f5186f947110800000000000000
-      internalID: 1257805465336973827
+      spriteID: 82121f21424d53ac0800000000000000
+      internalID: -3875958652880740056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_20
+      name: Katana-Asset 1_20
       rect:
         serializedVersion: 2
         x: 11
-        y: 203
+        y: 253
         width: 29
         height: 42
       alignment: 0
@@ -687,18 +708,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad643c37e4b9208d0800000000000000
-      internalID: -2881570050311764262
+      spriteID: 7d01543d553969510800000000000000
+      internalID: 1555592718129107159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_21
+      name: Katana-Asset 1_21
       rect:
         serializedVersion: 2
         x: 45
-        y: 203
+        y: 253
         width: 30
         height: 42
       alignment: 0
@@ -708,18 +729,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a22b87608e36ad440800000000000000
-      internalID: 4961387787694158378
+      spriteID: 3f0e04f690608c110800000000000000
+      internalID: 1281280731577901299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_22
+      name: Katana-Asset 1_22
       rect:
         serializedVersion: 2
         x: 80
-        y: 203
+        y: 253
         width: 30
         height: 42
       alignment: 0
@@ -729,18 +750,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d64e42f7671c32940800000000000000
-      internalID: 5270268703637038189
+      spriteID: 31e789ab051abcd10800000000000000
+      internalID: 2146987015472184851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_23
+      name: Katana-Asset 1_23
       rect:
         serializedVersion: 2
         x: 115
-        y: 203
+        y: 253
         width: 29
         height: 42
       alignment: 0
@@ -750,18 +771,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34107a9c756dde570800000000000000
-      internalID: 8497683744451658051
+      spriteID: e218b71dfb0fe5ba0800000000000000
+      internalID: -6098172138769120978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_24
+      name: Katana-Asset 1_24
       rect:
         serializedVersion: 2
         x: 168
-        y: 203
+        y: 253
         width: 41
         height: 48
       alignment: 0
@@ -771,18 +792,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c98a886e60a153a30800000000000000
-      internalID: 4194287244905326748
+      spriteID: d5b433e81b32e2b10800000000000000
+      internalID: 1958542133454654301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_25
+      name: Katana-Asset 1_25
       rect:
         serializedVersion: 2
         x: 214
-        y: 203
+        y: 253
         width: 41
         height: 45
       alignment: 0
@@ -792,18 +813,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2a854217deafba70800000000000000
-      internalID: 8844980431926692398
+      spriteID: f38fb283036fcb410800000000000000
+      internalID: 1494339863341430847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_26
+      name: Katana-Asset 1_26
       rect:
         serializedVersion: 2
         x: 260
-        y: 203
+        y: 253
         width: 41
         height: 42
       alignment: 0
@@ -813,18 +834,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8893926544e917b60800000000000000
-      internalID: 7742143250767100296
+      spriteID: f49843416d94bc980800000000000000
+      internalID: -8517633086430344881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_27
+      name: Katana-Asset 1_27
       rect:
         serializedVersion: 2
         x: 306
-        y: 203
+        y: 253
         width: 41
         height: 45
       alignment: 0
@@ -834,18 +855,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 750d9f7c152e3cdc0800000000000000
-      internalID: -3619800834600480681
+      spriteID: 30c7522a34e3aa640800000000000000
+      internalID: 5091950788899863555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_28
+      name: Katana-Asset 1_28
       rect:
         serializedVersion: 2
         x: 10
-        y: 148
+        y: 198
         width: 38
         height: 38
       alignment: 0
@@ -855,18 +876,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bece13f1a321a1370800000000000000
-      internalID: 8293961704596958443
+      spriteID: 0f569231d965bb6e0800000000000000
+      internalID: -1820766391709899280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_29
+      name: Katana-Asset 1_29
       rect:
         serializedVersion: 2
         x: 53
-        y: 136
+        y: 186
         width: 25
         height: 50
       alignment: 0
@@ -876,18 +897,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14d7450f40a44c130800000000000000
-      internalID: 3586072588366150977
+      spriteID: 7eea6ebb23ac5ae10800000000000000
+      internalID: 2208393511544729319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_30
+      name: Katana-Asset 1_30
       rect:
         serializedVersion: 2
         x: 104
-        y: 142
+        y: 192
         width: 38
         height: 42
       alignment: 0
@@ -897,18 +918,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c50b41c50e77e18b0800000000000000
-      internalID: -5179570715928252324
+      spriteID: 79fb4fdb0643bfd70800000000000000
+      internalID: 9077907064003805079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_31
+      name: Katana-Asset 1_31
       rect:
         serializedVersion: 2
         x: 147
-        y: 136
+        y: 186
         width: 24
         height: 48
       alignment: 0
@@ -918,18 +939,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5d0cc25645c4baa0800000000000000
-      internalID: -6146070685626397347
+      spriteID: d77f062d277143090800000000000000
+      internalID: -8055788051535693955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_32
+      name: Katana-Asset 1_32
       rect:
         serializedVersion: 2
         x: 11
-        y: 88
+        y: 138
         width: 40
         height: 26
       alignment: 0
@@ -939,18 +960,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b5c4a6f1b5f96ce0800000000000000
-      internalID: -1411326863507929680
+      spriteID: 6cd679684895c6330800000000000000
+      internalID: 3705435019147701702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_33
+      name: Katana-Asset 1_33
       rect:
         serializedVersion: 2
         x: 56
-        y: 88
+        y: 138
         width: 49
         height: 29
       alignment: 0
@@ -960,18 +981,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0168bf322db5f9c00800000000000000
-      internalID: 909546607857075728
+      spriteID: 672d80cb9795a39e0800000000000000
+      internalID: -1640900734842514826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_34
+      name: Katana-Asset 1_34
       rect:
         serializedVersion: 2
         x: 110
-        y: 88
+        y: 138
         width: 42
         height: 35
       alignment: 0
@@ -981,18 +1002,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9251981cab2298910800000000000000
-      internalID: 1840040108263806249
+      spriteID: bedfdcf9b9d1cd7d0800000000000000
+      internalID: -2892404306440487445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_35
+      name: Katana-Asset 1_35
       rect:
         serializedVersion: 2
         x: 157
-        y: 88
+        y: 138
         width: 44
         height: 36
       alignment: 0
@@ -1002,18 +1023,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d489b37307cc7dff0800000000000000
-      internalID: -11315691710080947
+      spriteID: 8bd1e04cdb81ecec0800000000000000
+      internalID: -3544868653376856648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_36
+      name: Katana-Asset 1_36
       rect:
         serializedVersion: 2
         x: 206
-        y: 88
+        y: 138
         width: 42
         height: 38
       alignment: 0
@@ -1023,18 +1044,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c10780f94a93a37a0800000000000000
-      internalID: -6396736941520818148
+      spriteID: 2da8d5c6b5c2a1060800000000000000
+      internalID: 6924896148207274706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_37
+      name: Katana-Asset 1_37
       rect:
         serializedVersion: 2
         x: 253
-        y: 88
+        y: 138
         width: 44
         height: 39
       alignment: 0
@@ -1044,18 +1065,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ec123a537d9659f0800000000000000
-      internalID: -480023191508345629
+      spriteID: 78a47818d835edc60800000000000000
+      internalID: 7844799468154604167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_38
+      name: Katana-Asset 1_38
       rect:
         serializedVersion: 2
         x: 302
-        y: 88
+        y: 138
         width: 44
         height: 36
       alignment: 0
@@ -1065,18 +1086,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92f83995cefaab1b0800000000000000
-      internalID: -5640002153678139607
+      spriteID: bad99dcf948ea9f70800000000000000
+      internalID: 9194916993702665643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_39
+      name: Katana-Asset 1_39
       rect:
         serializedVersion: 2
         x: 16
-        y: 26
+        y: 76
         width: 33
         height: 40
       alignment: 0
@@ -1086,18 +1107,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ab926a88dc62fea0800000000000000
-      internalID: -5840486089455658071
+      spriteID: d557c64917b2052e0800000000000000
+      internalID: -2139162056179550883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_40
+      name: Katana-Asset 1_40
       rect:
         serializedVersion: 2
         x: 64
-        y: 29
+        y: 79
         width: 38
         height: 39
       alignment: 0
@@ -1107,18 +1128,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0833ddcf5f3a0f30800000000000000
-      internalID: 4542512854864181260
+      spriteID: 276b54059de20ab80800000000000000
+      internalID: -8385650995274336654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_41
+      name: Katana-Asset 1_41
       rect:
         serializedVersion: 2
         x: 148
-        y: 33
+        y: 83
         width: 85
         height: 26
       alignment: 0
@@ -1128,18 +1149,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e107afdf458c81310800000000000000
-      internalID: 1376069953525542942
+      spriteID: 71c9795ad533c9c70800000000000000
+      internalID: 8979108234373078039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_42
+      name: Katana-Asset 1_42
       rect:
         serializedVersion: 2
         x: 239
-        y: 36
+        y: 86
         width: 96
         height: 23
       alignment: 0
@@ -1149,18 +1170,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 444601b5ae34819e0800000000000000
-      internalID: -1650494589602077628
+      spriteID: 299fd12b847761340800000000000000
+      internalID: 4834182404138465682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_43
+      name: Katana-Asset 1_43
       rect:
         serializedVersion: 2
         x: 340
-        y: 34
+        y: 84
         width: 9
         height: 12
       alignment: 0
@@ -1170,18 +1191,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 059b858746fe5b810800000000000000
-      internalID: 1780592442489747792
+      spriteID: be052a9a9ecb2e1e0800000000000000
+      internalID: -2169964358679768853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_44
+      name: Katana-Asset 1_44
       rect:
         serializedVersion: 2
         x: 378
-        y: 45
+        y: 95
         width: 59
         height: 11
       alignment: 0
@@ -1191,18 +1212,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3cd3fa9f5294cce0800000000000000
-      internalID: -1385821846004048833
+      spriteID: bda45abbae6a41aa0800000000000000
+      internalID: -6191140060626859301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_45
+      name: Katana-Asset 1_45
       rect:
         serializedVersion: 2
         x: 404
-        y: 40
+        y: 90
         width: 16
         height: 8
       alignment: 0
@@ -1212,18 +1233,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6a3a208fb9700040800000000000000
-      internalID: 4611819881823353454
+      spriteID: 12790932ec625d0a0800000000000000
+      internalID: -6857532190799915231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_46
+      name: Katana-Asset 1_46
       rect:
         serializedVersion: 2
         x: 459
-        y: 33
+        y: 83
         width: 167
         height: 26
       alignment: 0
@@ -1233,18 +1254,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1b5ca59073212970800000000000000
-      internalID: 8728296519275141917
+      spriteID: e96dd5415797062c0800000000000000
+      internalID: -4440415688827480418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_47
+      name: Katana-Asset 1_47
       rect:
         serializedVersion: 2
         x: 312
-        y: 33
+        y: 83
         width: 13
         height: 5
       alignment: 0
@@ -1254,18 +1275,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8755a024ef9494d0800000000000000
-      internalID: -3128700038966585460
+      spriteID: eeaea16a00021ccf0800000000000000
+      internalID: -233870518487684370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_48
+      name: Katana-Asset 1_48
       rect:
         serializedVersion: 2
         x: 355
-        y: 33
+        y: 83
         width: 4
         height: 4
       alignment: 0
@@ -1275,18 +1296,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b819dc3d1eaff1720800000000000000
-      internalID: 2819247739585270155
+      spriteID: fed74930808b3c3e0800000000000000
+      internalID: -2034580262082019857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Katana-Asset_49
+      name: Katana-Asset 1_49
       rect:
         serializedVersion: 2
         x: 428
-        y: 34
+        y: 84
         width: 26
         height: 7
       alignment: 0
@@ -1296,8 +1317,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c02e8d762d66a220800000000000000
-      internalID: 2496803055506170048
+      spriteID: 532ba42bc791cf900800000000000000
+      internalID: 719478063830315573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana-Asset 1_50
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 27
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008b42070da0c0080800000000000000
+      internalID: -9219982446783318016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana-Asset 1_51
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 27
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ade6c32ecf4bb10800000000000000
+      internalID: 1996498583438678612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana-Asset 1_52
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 27
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9be4c0387e9d7d0800000000000000
+      internalID: -2893026735575615033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana-Asset 1_53
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 27
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe8d5df804b1b700800000000000000
+      internalID: 554422179846786809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana-Asset 1_54
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 27
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6f11b85255b1b10800000000000000
+      internalID: 1953248483130603218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana-Asset 1_55
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 27
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524f7c19b8cf92870800000000000000
+      internalID: 8658729434972943397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana-Asset 1_56
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 27
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0800c0412d446680800000000000000
+      internalID: -8762794169740556273
       vertices: []
       indices: 
       edges: []
