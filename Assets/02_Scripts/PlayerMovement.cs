@@ -15,14 +15,21 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float wallchkDistance;
     [SerializeField] float jumpPower;
     [SerializeField] float wallSlideSpeed;
+    [Header("Dash")]
+    [SerializeField] float DashCoolTime;
+    [SerializeField] float DashPower;
 
     [SerializeField] LayerMask g_Layer;
     [SerializeField] LayerMask w_Layer;
     
     public bool isGround;
     public bool isWall;
+    public bool isDash;
 
     private float inputX;
+    private float currentDashTime;
+    private float dashDis;
+
 
     void Start()
     {
@@ -36,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
         PlayerJump();
         ChkGround();
         ChkWall();
+        Dash();
     }
 
     private void PlayerMove()
@@ -55,13 +63,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void PlayerJump()
     {
-        if (isGround)
+        if (isGround && Input.GetKeyDown(KeyCode.Space))
         {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                rigid.velocity = new Vector2(rigid.velocity.x, jumpPower);
-                rigid.gravityScale = 5f;
-            }
+            rigid.velocity = new Vector2(rigid.velocity.x, jumpPower);
         }
     }
 
@@ -83,17 +87,29 @@ public class PlayerMovement : MonoBehaviour
     {
         isWall = Physics2D.Raycast(new Vector2(transform.position.x + (wallchkDistance / 2), transform.position.y)
             , Vector2.left, wallchkDistance, w_Layer);
-        if (isWall && isGround == false)
+        if (isWall)
         {
-            rigid.gravityScale = wallSlideSpeed;
-        }
-        if (isWall == false)
-        {
-            rigid.gravityScale = 5;
+            rigid.velocity = new Vector2(rigid.velocity.x, wallSlideSpeed);
         }
     }
 
-    private void Dahs()
+    private void Dash()
     {
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            isDash = true;
+            currentDashTime = DashCoolTime;
+            rigid.velocity = Vector2.zero;
+            dashDis = (int)inputX;
+        }
+        if (isDash)
+        {
+            rigid.velocity = transform.right * dashDis * DashPower;
+            currentDashTime -= Time.deltaTime;
+            if(currentDashTime <= 0)
+            {
+                isDash = false;
+            }
+        }
     }
 }
