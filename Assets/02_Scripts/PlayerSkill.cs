@@ -12,4 +12,12 @@ public class PlayerSkill : MonoBehaviour
 
         }
     }
+
+    private void UltimateSkill()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+
+        }
+    }
 }
