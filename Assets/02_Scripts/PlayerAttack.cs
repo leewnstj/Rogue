@@ -4,15 +4,41 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    private float curTime;
+    [SerializeField ] float coolTime = 0.5f;
+
+    private Animator anim;
+    private PlayerMovement pm;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+        pm = GetComponent<PlayerMovement>();
+    }
+    private void Update()
+    {
+        Attack();
+    }
+    public void Attack()
     {
         
+
+        if(curTime <= 0)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Vector2 len = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+                float z = Mathf.Atan2(len.y, len.x) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.Euler(0, 0, z);
+                anim.SetTrigger("PlayerAttack");
+                curTime = coolTime;
+                pm.isDash = true;
+            }
+        }
+        else
+        {
+            curTime -= Time.deltaTime;
+        }
     }
 }
