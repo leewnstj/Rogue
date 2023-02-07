@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6564490152275116303}
   - component: {fileID: 6564490152275116300}
   - component: {fileID: 6564490152275116301}
-  - component: {fileID: 3303181698654536876}
   m_Layer: 0
   m_Name: Katana-Asset 1_41
   m_TagString: Untagged
@@ -103,16 +102,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3303181698654536876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6564490152275116306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8eab1dd861cd84f4a97b8c353a8eb97e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 4
