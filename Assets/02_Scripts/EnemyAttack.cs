@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAttack : MonoBehaviour
+public class EnemyAttack : MonoBehaviour
 {
     [SerializeField] Transform attackPos;
     [SerializeField] Vector2 attackSize;
-    [SerializeField] GameObject bullet;
 
     private Animator anim;
     private Rigidbody2D rigid;
@@ -35,7 +34,6 @@ public class PlayerAttack : MonoBehaviour
                 foreach (Collider2D collider in attackHit)
                 {
                     Debug.Log(collider.tag);
-                    bullet.SetActive(true);
                 }
 
                 anim.SetTrigger("PlayerAttack");
@@ -46,11 +44,6 @@ public class PlayerAttack : MonoBehaviour
         {
             curTime -= Time.deltaTime;
         }
-    }
-
-    public void Off()
-    {
-        bullet.SetActive(false);
     }
 
     private void OnDrawGizmos()
