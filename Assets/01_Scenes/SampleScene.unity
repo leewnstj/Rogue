@@ -488,7 +488,6 @@ GameObject:
   - component: {fileID: 1353879858}
   - component: {fileID: 1353879857}
   - component: {fileID: 1353879856}
-  - component: {fileID: 1353879861}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -661,19 +660,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1353879861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353879854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 395dfd023a647f7458ccec2a5e319d0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coolTime: 0.5
 --- !u!1 &1447886796
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +986,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2094029729}
+  - component: {fileID: 2094029730}
   m_Layer: 0
   m_Name: AttackPoint
   m_TagString: Untagged
@@ -1021,3 +1008,19 @@ Transform:
   m_Father: {fileID: 1353879855}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2094029730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094029728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395dfd023a647f7458ccec2a5e319d0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackPoint: {fileID: 2094029729}
+  bullet: {fileID: 6564490152275116306, guid: 2d9c30a516b5e604ab81fe7f35a263af, type: 3}
+  AttackTime: 0.3
+  coolTIme: 0
