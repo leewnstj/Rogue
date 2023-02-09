@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isDash;
     public bool isSlideWall;
 
-    private float inputX;
+    public float inputX;
     private float currentDashTime;
     private float dashDis;
 
@@ -52,11 +52,11 @@ public class PlayerMovement : MonoBehaviour
         inputX = Input.GetAxisRaw("Horizontal");
         rigid.velocity = new Vector2(inputX * PlayerSpeed, rigid.velocity.y);
 
-        transform.localScale = inputX switch
+        transform.rotation = inputX switch
         {
-            1  => new Vector2(3.5f,3.5f),
-            -1 => new Vector2(-3.5f,3.5f),
-            _  => transform.localScale
+            1  => Quaternion.Euler(0,0,0),
+            -1 => Quaternion.Euler(0,180,0),
+            _  => transform.rotation
         };
 
         anim.SetFloat("X", inputX);
