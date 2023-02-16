@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isWall;
     public bool isDash;
     public bool isSlideWall;
+    public bool isDown;
 
     public float inputX;
     private float currentDashTime;
@@ -67,6 +68,10 @@ public class PlayerMovement : MonoBehaviour
         if (isGround && Input.GetKeyDown(KeyCode.Space))
         {
             rigid.velocity = new Vector2(rigid.velocity.x, jumpPower);
+        }
+        if (rigid.velocity.y < 0 && isSlideWall == false)
+        {
+            anim.SetTrigger("PlayerDown");
         }
     }
 
